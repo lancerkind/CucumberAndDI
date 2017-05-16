@@ -1,7 +1,6 @@
 package com.my.features.definitions_and_classes;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.fail;
 
@@ -12,6 +11,7 @@ import cucumber.api.java.en.When;
 public class ProcessingUnitDefinitions {
 	ProcessingUnit leastBusy;
 	
+	// Constructor for PicoContainer injection 
 	public ProcessingUnitDefinitions(ProcessingUnit leastBusy)
 	{
 		this.leastBusy = leastBusy;
