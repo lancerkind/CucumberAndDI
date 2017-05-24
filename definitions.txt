@@ -1,0 +1,43 @@
+You can implement missing steps with the snippets below:
+
+@Given("^first-time owner buys a dog they love$")
+public void first_time_owner_buys_a_dog_they_love() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^purchasing a dog dish$")
+public void purchasing_a_dog_dish() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^<selected accessories> are discounted at (\\d+)%$")
+public void selected_accessories_are_discounted_at(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^purchasing a collar$")
+public void purchasing_a_collar() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^purchasing a store brand dog food$")
+public void purchasing_a_store_brand_dog_food() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^purchasing a store brand puppy food$")
+public void purchasing_a_store_brand_puppy_food() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^purchasing <accessories>$")
+public void purchasing_accessories() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
