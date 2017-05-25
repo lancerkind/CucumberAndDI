@@ -11,7 +11,7 @@ public class WhenBoughtSelectedAccessory {
 		this.cart = cart;
 	}
 	
-	@When("^purchasing a \"([^\"]*)\"$")
+	@When("^purchasing selected accessory \"([^\"]*)\"$")
 	public void purchasing(String item) throws Throwable {
 	    cart.add("dog dish");
 	}

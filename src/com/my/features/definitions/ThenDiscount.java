@@ -14,8 +14,8 @@ public class ThenDiscount {
 		this.givenCalledThisManyTimes = counter;
 	}
 	
-	@Then("^\"([^\"]*)\" is discounted at (\\d+)%$")
-	public void selected_accessories_are_discounted_at(String selectedAccessory, int percenteDiscounted) throws Throwable {
+	@Then("selected accessory is discounted at (\\d+)%$")
+	public void selected_accessories_are_discounted_at(int percenteDiscounted) throws Throwable {
 		if (dogInCart(cart)) {
 			assertThat(selectedAccessoriesAreDiscounted(cart, percenteDiscounted), equalTo(true));
 			assertThat("Since the World is destroyed after each scenario run, counter must always be 1", givenCalledThisManyTimes.toString(), equalTo("1"));
