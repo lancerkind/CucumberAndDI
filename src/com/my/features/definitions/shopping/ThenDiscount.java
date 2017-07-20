@@ -1,4 +1,4 @@
-package com.my.features.definitions;
+package com.my.features.definitions.shopping;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;

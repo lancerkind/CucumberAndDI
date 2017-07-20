@@ -1,4 +1,4 @@
-package com.my.features.definitions;
+package com.my.features.definitions.shopping;
 
 public class Counter {
 	private int count = 0;

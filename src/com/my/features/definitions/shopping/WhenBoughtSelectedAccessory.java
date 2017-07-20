@@ -1,4 +1,4 @@
-package com.my.features.definitions;
+package com.my.features.definitions.shopping;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.When;

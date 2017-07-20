@@ -1,4 +1,4 @@
-package com.my.features.definitions;
+package com.my.features.definitions.shopping;
 
 import java.util.Vector;
 

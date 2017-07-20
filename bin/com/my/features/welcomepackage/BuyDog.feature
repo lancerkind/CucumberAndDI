@@ -15,7 +15,7 @@ Examples: (enumerating all selected accessories)
 |store brand dog food	|	
 |store brand puppy food	|	 
 
-Scenario Outline: buys a few selected and a few not
+Scenario Outline: some Selected some not
 Given first-time owner buys a dog they love
 When purchasing accessories "<accessories>" 
 Then selected accossories "<selected accessories>" are discounted at 10% 
